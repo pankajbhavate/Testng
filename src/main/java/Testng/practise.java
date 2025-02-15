@@ -44,7 +44,7 @@ public class practise {
 	}
 	@AfterMethod
 	public void down() {
-		driver.close();
+		//driver.close();
 	}
 	
 	@DataProvider(name = "exdata")

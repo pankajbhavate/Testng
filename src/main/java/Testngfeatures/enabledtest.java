@@ -1,10 +1,14 @@
 package Testngfeatures;
 
+import static org.testng.Assert.expectThrows;
+
+import java.awt.event.InvocationEvent;
+
 import org.testng.annotations.Test;
 
 public class enabledtest {
 	
-	@Test()
+	@Test
 	public void open() {
 	  System.out.println("kk");
 	}

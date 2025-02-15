@@ -3,6 +3,7 @@ package Testngfeatures;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.TestNG;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,8 +21,11 @@ public class Group2 {
 		driver.get("https://www.facebook.com/");
 	}
 	
-	@Test(groups = "login")
-	public void test() {    
+	@Test(groups =  "login")
+	public void test() {  
+		TestNG t = new TestNG();
+		t.setGroups("login");
+		t.run();
 	boolean b =	driver.findElement(By.id("email")).isDisplayed();
 	System.out.println(b);}
 	@Test(groups = "login")

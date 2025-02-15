@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Paralleltesting.parallel1">
+      <class name="PageObjectModel.Testclass">
         <methods>
-          <include name="pass"/>
-          <include name="user"/>
+          <include name="set"/>
+          <include name="down"/>
+          <include name="test" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Paralleltesting.parallel1 -->
+      </class> <!-- PageObjectModel.Testclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
