@@ -3,7 +3,11 @@
   <groupId>TestNG</groupId>
   <artifactId>TestNG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 1a60e11e191f54e452842c96f8e8d7459a466c96
   
   <dependencies>
    <dependency>
