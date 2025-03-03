@@ -1,5 +1,7 @@
 package Testng;
 
+import static org.testng.Assert.assertTrue;
+
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,6 +27,7 @@ public class annotaions {
 	@Test
 	public void test() {
 	boolean b =	driver.findElement(By.cssSelector("[alt=\"Facebook\"]")).isDisplayed();
+	//  assertTrue(false);
 	System.out.println(b);}
 	@Test
 	public void gettext() {

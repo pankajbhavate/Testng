@@ -22,7 +22,7 @@ public class pract {
 		WebDriver driver =new ChromeDriver();
 		 driver.get("https://www.google.co.uk/");
 		WebElement w = driver.findElement(By.cssSelector("[class=\"gLFyf\"]"));
-		 w.sendKeys("sexy photo to the girl");
+		 w.sendKeys("se photo to the girl");
 		 w.submit();
 		 driver.findElement(By.cssSelector("[class=\"recaptcha-checkbox-border\"]")).click();
 		

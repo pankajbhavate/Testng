@@ -43,6 +43,7 @@ public class Testclass extends Baseclass {
 		Thread.sleep(2000);
 		
 		b.submit();
+		log.info("submit the form");
 	
 		//b.back();
 		

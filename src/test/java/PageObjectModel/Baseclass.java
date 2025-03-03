@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Baseclass  {
 	
 	Logger log;
-	WebDriver driver;
+public	WebDriver driver;
 	String fname;
 	String pass;
 	String urll;
@@ -44,12 +44,12 @@ public class Baseclass  {
 	
 	}
 	
-	@BeforeMethod
+	@BeforeMethod                                          //  C:\Users\DELL\git\Testng\src\test\resources\logs\log.properties
 	public void set() throws IOException {
 		
 	    
-	         log = Logger.getLogger("Execute the test case");
-	         PropertyConfigurator.configure("C:\\Users\\DELL\\eclipse-workspace\\TestNG\\src\\test\\resources\\logs\\log.properties");
+	        log= Logger.getLogger("execute the test case");
+	       PropertyConfigurator.configure("C:\\Users\\DELL\\git\\Testng\\src\\test\\resources\\logs\\log.properties");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		log.info("open browser");

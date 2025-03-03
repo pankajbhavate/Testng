@@ -26,7 +26,7 @@ public class retrytest1 implements ITestListener {
 	@Test(retryAnalyzer = Retryanlyzer.class)
 	public void t1() {
 		
-		  String expected = "Facebook – log in or shign up";
+		  String expected = "Facebook – log in or sign up";
 		   String actual = driver.getTitle();
 		   System.out.println(actual);
 		   Assert.assertEquals(expected, actual);

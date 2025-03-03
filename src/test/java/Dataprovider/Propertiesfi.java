@@ -11,7 +11,7 @@ public class Propertiesfi {
 	Properties p = new Properties();
 	
 	public Propertiesfi() throws IOException {
-		FileInputStream f = new FileInputStream("C:\\Users\\DELL\\eclipse-workspace\\TestNG\\src\\test\\resources\\data.properties");
+		FileInputStream f = new FileInputStream("C:\\Users\\DELL\\git\\Testng\\src\\test\\resources\\data.properties");
 		p.load(f);
 	}
 	
